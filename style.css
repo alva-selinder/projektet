@@ -1,15 +1,47 @@
 /*----- GLOBAL -----*/
+        /* #2c2c57  #658292  #eadad3  #f49092  #d76457 */
 body {
     margin: 0;
     padding: 0;
+
+    display: grid;
 }
 
 /*----- HEADER -----*/
+header {
+    background-color: #d76457;
+}
 
 /*----- NAVBAR -----*/
+nav {
+    color: #eadad3;
+    background-color: #2c2c57;
+}
+
+nav ul {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin: 0.25rem;
+    padding: 0.1rem;
+
+}
+
+li {
+    display: inline-block;
+}
+
+nav ul li:hover {
+    background-color: black;
+}
 
 /*----- CONTENT -----*/
 
 /*----- ASIDE -----*/
 
 /*----- FOOTER -----*/
+footer {
+    background-color: #2c2c57;
+}

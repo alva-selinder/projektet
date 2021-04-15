@@ -1,0 +1,41 @@
+Vecka 12
+    Brainstorm
+
+Vecka 13
+    Planering
+    (Kirurgi + Återhämtning)
+
+Vecka 14
+    (Återhämtning)
+
+Vecka 15
+    (Planering)
+    Innehåll
+    Global Template
+    Testning
+
+Vecka 16
+    Innehåll
+    Global Template
+    Startsida
+    Testning
+
+Vecka 17
+    Innehåll
+    Lokala sidor
+    Media queries
+    Testning
+
+Vecka 18
+    Innehåll
+    Lokala sidor
+    Media queries
+    Testning
+
+Vecka 19
+    Lokala sidor
+    Media queries
+    Testning
+
+Vecka 20
+    Testning
