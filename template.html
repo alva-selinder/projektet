@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>En Introduktion till Friidrott</title>
-    <link rel="stylesheet" href="style.css">
+    <title>mall</title>
 </head>
-
 <body>
     <header class="header">
         <h1>En Introduktion till Friidrott</h1>
@@ -16,7 +14,15 @@
     <nav class="nav">
         <ul>    <!-- Ska vara dropdown -->
             <li>Hem</li>
-            <li>Löpgrenar</li>
+            <li class="dropdown">Löpgrenar
+                <a href="#" class="dropdown__button"></a>
+                <div class="dropdown__content">
+                    <a href="sprint.html">Sprint</a>
+                    <a href="medeldistans.html">Medeldistans</a>
+                    <a href="langdistans.html">Långdistans</a>
+                    <a href="hacklopning.html">Häcklöpning</a>
+                </div>
+            </li>
             <li>Hoppgrenar</li>
             <li>Kastgrenar</li>
         </ul>
@@ -26,6 +32,6 @@
 
     <aside class="aside"></aside>
 
-    <footer class="footer">Alva Selinder 2021</footer>
+    <footer class="footer">Alva Selinder, 2021</footer>
 </body>
 </html>
