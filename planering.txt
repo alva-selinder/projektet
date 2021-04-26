@@ -26,6 +26,10 @@ Vecka 17
     Media queries
     Testning
 
+        Tillägg:
+        Global Template
+        Startsida
+
 Vecka 18
     Innehåll
     Lokala sidor
