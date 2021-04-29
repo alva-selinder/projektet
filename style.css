@@ -17,6 +17,10 @@ body {
     /* Byta bort repeat kanske? */
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
+
+    /* fixa, använd eventuellt */
+    /*grid-template-columns: minmax(auto, 1fr) 200px;
+    grid-template-rows: 10rem 50px minmax(auto, 1fr) 50px;*/
 }
 
 /*----- HEADER -----*/
@@ -50,6 +54,8 @@ nav {
     grid-column: 1 / -1;
     grid-row: span 1;
 
+    overflow: hidden;
+
     /*grid-area: nav;*/
 }
 
@@ -59,7 +65,7 @@ nav ul {
     display: flex;
     justify-content: space-around;
 
-    margin: 0.25rem;
+    margin: 0.50rem;
     padding: 0.1rem;
 }
 
@@ -71,10 +77,33 @@ nav ul li:hover {
     background-color: black;
 }
 
+        /* STICKY NAV */
+
+#navbar {
+    overflow: hidden;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
         /* DROPDOWNMENYER */
 .dropdown {
-    position: relative;
-    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropdown__button {
+    font-family: inherit;
+    margin: 0;
+
+    background-color: inherit;
 }
 
 .dropdown__content {
@@ -89,7 +118,10 @@ nav ul li:hover {
 }
 
 .dropdown__content a {
+    float: none;
     text-decoration: none;
+    display: block;
+    text-align: left;
 }
 
 .dropdown:hover {
@@ -141,6 +173,10 @@ footer {
     /*grid-area: footer;*/
     background-color: #2c2c57;
     color: #fff;
+
+    text-align: center;
+
+    padding: 1rem;
 
     font-family: 'Staatliches', cursive;
     letter-spacing: 0.1rem;
