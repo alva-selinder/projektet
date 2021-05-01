@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mall</title>
-    <link rel="stylesheet" href="style.css">
+    <title>backup mall</title>
+    <link rel="stylesheet" href="backup-style.css">
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
@@ -17,12 +17,21 @@
 
     <nav class="nav" id="navbar">
         <script src="stickynav.js"></script>
-        <a href="index.html">Hem</a>
-        <a href="historia.html">Historia</a>
-        <a href="lopgrenar.html">Löpgrenar</a>
-        <a href="hoppgrenar.html">Hoppgrenar</a>
-        <a href="kastgrenar.html">Kastgrenar</a>
-        <a href="about.html">Om</a>
+        <ul>    <!-- Ska vara dropdown -->
+
+            <!-- Ändra till div?? För enkelhet? -->
+            <li>Hem</li>
+            <li class="dropdown">Löpgrenar
+                <a href="#" class="dropdown__button"></a>
+                <div class="dropdown__content">
+                    <a href="sprint.html">Sprint</a>
+                    <a href="medeldistans.html">Medeldistans</a>
+                    <a href="langdistans.html">Långdistans</a>
+                    <a href="hacklopning.html">Häcklöpning</a>
+                </div>
+            </li>
+            <li>Hoppgrenar</li>
+            <li>Kastgrenar</li>
         </ul>
     </nav>
 
@@ -31,7 +40,6 @@
     </div>
 
     <aside class="aside">
-        <!-- fixa faktagenerator -->
         <h2>Visste du?</h2>
         <p>bottom text</p>
     </aside>
