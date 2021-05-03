@@ -148,6 +148,26 @@ footer {
     grid-row: span 1 / -1;
 }
 
+/*----- TOPBUTTON -----*/
+#topButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+
+    border: none;
+    outline: none;
+
+    background-color: #5cb4b0;
+    color: black;
+    cursor: pointer;
+
+    padding: 20px;
+    border-radius: 1rem;
+    font-size: 18px;
+}
+
 /*----- INDEX -----*/
 
 
