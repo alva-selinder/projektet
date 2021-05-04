@@ -52,17 +52,22 @@ nav {
     overflow: hidden;
 
     display: flex;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
 
-    padding: 1rem;
+    /*padding: 1rem;*/
     /*grid-area: nav;*/
 }
 
 nav a {
     display: inline-block;
+    justify-items: stretch;
+
+    padding: 1rem;
+    flex-grow: 1;
 
     text-decoration: none;
     color: white;
+    text-align: center;
 }
 
 nav a:hover {
@@ -85,6 +90,10 @@ nav a:hover {
     padding-top: 100px;
 }
 
+.sticky + .aside {
+    padding-top: 100px;
+}
+
 
 /*----- CONTENT -----*/
 .content {
@@ -103,6 +112,20 @@ nav a:hover {
 /*----- ASIDE -----*/
 .aside {
     /* Konstant storlek på skärmen oavsett scroll. Att fixa */
+
+    /*position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 10rem;
+
+    width: 15%;*/
+
+    /*position: absolute;
+    right: 0;
+    bottom: 5rem;
+    top: 10rem;*/
+
+    max-height: 80vh;
 
     background-color: #def4e7;
     color: #2c2c57;
@@ -123,7 +146,13 @@ nav a:hover {
 }
 
 .aside p {
-    font-style: none;
+    font-style: normal;
+}
+
+        /* STICKY ASIDE */
+.sticky__aside {
+    position: fixed;
+    top: 5rem;
 }
 
 /*----- FOOTER -----*/
