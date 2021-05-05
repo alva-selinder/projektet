@@ -155,6 +155,11 @@ nav a:hover {
     top: 5rem;
 }
 
+        /* FACT GENERATOR */
+.nojs {
+    font-size: 0.75rem;
+}
+
 /*----- FOOTER -----*/
 footer {
     /*grid-area: footer;*/
