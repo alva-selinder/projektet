@@ -1,5 +1,6 @@
 /*----- GLOBAL -----*/
         /* #2c2c57  #658292  (#eadad3)/#def4e7  #f49092  #d76457 */
+        
 body {
     margin: 0;
     padding: 0;
@@ -90,8 +91,8 @@ nav a:hover {
     padding-top: 100px;
 }
 
-.sticky + .aside {
-    padding-top: 100px;
+.sticky + .content + .aside {
+    margin-top: 100px;
 }
 
 
@@ -109,6 +110,7 @@ nav a:hover {
     grid-column: 1 / span 1;
     grid-row: 3 / span 1;
 }
+
 /*----- ASIDE -----*/
 .aside {
     /* Konstant storlek på skärmen oavsett scroll. Att fixa */
@@ -150,10 +152,10 @@ nav a:hover {
 }
 
         /* STICKY ASIDE */
-.sticky__aside {
+/*.sticky__aside {
     position: fixed;
     top: 5rem;
-}
+}*/
 
         /* FACT GENERATOR */
 
