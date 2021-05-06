@@ -156,8 +156,9 @@ nav a:hover {
 }
 
         /* FACT GENERATOR */
-.nojs {
-    font-size: 0.75rem;
+
+noscript {
+    font-size: 0.8rem;
 }
 
 /*----- FOOTER -----*/
