@@ -17,6 +17,12 @@ body {
 
     grid-template-rows: auto auto 1fr auto;
     grid-template-columns: 5fr 1fr;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 0.1rem;
 }
 
 /*----- HEADER -----*/
@@ -201,7 +207,30 @@ footer {
 }
 
 /*----- INDEX -----*/
+.kategori {
+    min-height: 150px;
 
+    margin: 1rem 0;
+    display: flex;
+
+    align-items: center;
+}
+
+.kategori img {
+    padding-right: 1rem;
+
+    height: 150px;
+    width: 150px;
+}
+
+.infotext a {
+    text-decoration: none;
+    color: black;
+}
+
+.infotext a:hover {
+    text-decoration: underline;
+}
 
 /*----- HISTORIA -----*/
 
