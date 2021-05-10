@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.1rem;
 }
 
+p {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
 /*----- HEADER -----*/
 header {
     background-color: #5cb4b0;
@@ -151,10 +155,6 @@ nav a:hover {
 
     grid-column: span 1 / -1;
     grid-row: 3 / span 1;
-}
-
-.aside p {
-    font-style: normal;
 }
 
         /* STICKY ASIDE */
