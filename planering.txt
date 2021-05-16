@@ -43,3 +43,8 @@ Vecka 19
 
 Vecka 20
     Testning
+
+        Tillägg:
+        Innehåll
+        Media queries
+        Bilder & layout
