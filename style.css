@@ -105,6 +105,24 @@ nav a:hover {
     margin-top: 100px;
 }
 
+@media screen and (max-width: 600px) {
+    .nav {
+        flex-wrap: wrap;
+        /*overflow: visible;*/
+    }
+    .nav a {
+        min-width: 20%;
+    }
+
+
+    .nav .grenar {
+        order: 2;
+    }
+    
+    .sticky + .content {
+        padding-top: 150px;
+    }
+}
 
 /*----- CONTENT -----*/
 .content {
@@ -119,6 +137,12 @@ nav a:hover {
 
     grid-column: 1 / span 1;
     grid-row: 3 / span 1;
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        grid-column: 1 / -1;
+    }
 }
 
 /*----- ASIDE -----*/
@@ -167,6 +191,12 @@ nav a:hover {
 
 noscript {
     font-size: 0.8rem;
+}
+
+@media  (max-width: 600px) {
+    .aside {
+        display: none;
+    }
 }
 
 /*----- FOOTER -----*/
@@ -230,6 +260,10 @@ footer {
 
 .infotext a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+    
 }
 
 /*----- HISTORIA -----*/
