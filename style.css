@@ -21,12 +21,53 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Staatliches', cursive;
+    font-family: 'Staatliches', sans-serif;
     letter-spacing: 0.1rem;
 }
 
-p {
+p, figcaption {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    color: grey;
+
+    overflow: visible;
+}
+
+figure {
+    border: 2px dashed #2c2c57;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    margin: 0;
+}
+
+img {
+    max-width: 300px;
+    display: inline-block;
+    border-radius: 1rem;
+}
+
+.bild {
+    float: right;
+}
+
+@media screen and (max-width: 992px) {
+    img {
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bild {
+        float: none;
+        max-width: 90%;
+    }
+
+    img {
+        max-width: 100%;
+    }
 }
 
 /*----- HEADER -----*/
@@ -138,7 +179,7 @@ nav a:hover {
     grid-row: 3 / span 1;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
     .content {
         grid-column: 1 / -1;
     }
@@ -192,7 +233,7 @@ noscript {
     font-size: 0.8rem;
 }
 
-@media  (max-width: 600px) {
+@media  (max-width: 992px) {
     .aside {
         display: none;
     }
@@ -246,10 +287,13 @@ footer {
 }
 
 .kategori img {
-    padding-right: 1rem;
+    margin-right: 1rem;
+    padding: 0.2rem;
 
     height: 150px;
     width: 150px;
+
+    border: 2px dashed #2c2c57;
 }
 
 .infotext a {
