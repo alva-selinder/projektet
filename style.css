@@ -8,13 +8,6 @@ body {
     display: grid;
     min-height: 100vh;
 
-    /*grid-template-areas: 
-    "header header"
-    "nav nav"
-    "content aside"
-    "footer footer";*/
-
-
     grid-template-rows: auto auto 1fr auto;
     grid-template-columns: 5fr 1fr;
 
@@ -23,6 +16,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Staatliches', sans-serif;
     letter-spacing: 0.1rem;
+
+    clear: left;
 }
 
 p, figcaption {
@@ -49,8 +44,14 @@ img {
     border-radius: 1rem;
 }
 
-.bild {
+.img__right {
     float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+.img__left {
+    float: left;
+    margin: 0 1rem 1rem 0;
 }
 
 @media screen and (max-width: 992px) {
@@ -63,6 +64,8 @@ img {
     .bild {
         float: none;
         max-width: 90%;
+
+        margin: 0 1rem;
     }
 
     img {
@@ -74,7 +77,7 @@ img {
 header {
     background-color: #5cb4b0;
 
-    font-family: 'Staatliches', cursive; /* För tillfället */
+    font-family: 'Staatliches', cursive; 
     letter-spacing: 0.1rem;
 
     text-align: center;
@@ -82,8 +85,6 @@ header {
 
     grid-column: 1 / -1;
     grid-row: 1 / span 1;
-
-    /*grid-area: header;*/
 }
 
 header h1 {
@@ -104,10 +105,6 @@ nav {
     overflow: hidden;
 
     display: flex;
-    /*justify-content: space-around;*/
-
-    /*padding: 1rem;*/
-    /*grid-area: nav;*/
 }
 
 nav a {
@@ -149,7 +146,6 @@ nav a:hover {
 @media screen and (max-width: 600px) {
     .nav {
         flex-wrap: wrap;
-        /*overflow: visible;*/
     }
     .nav a {
         min-width: 20%;
@@ -167,8 +163,6 @@ nav a:hover {
 
 /*----- CONTENT -----*/
 .content {
-    /*grid-area: content;*/
-
     padding: 3rem;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -241,7 +235,6 @@ noscript {
 
 /*----- FOOTER -----*/
 footer {
-    /*grid-area: footer;*/
     background-color: #2c2c57;
     color: #fff;
 
