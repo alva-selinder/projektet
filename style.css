@@ -184,19 +184,6 @@ nav a:hover {
 
 /*----- ASIDE -----*/
 .aside {
-    /* Konstant storlek på skärmen oavsett scroll. Att fixa */
-
-    /*position: fixed;
-    right: 0;
-    bottom: 0;
-    top: 10rem;
-
-    width: 15%;*/
-
-    /*position: absolute;
-    right: 0;
-    bottom: 5rem;
-    top: 10rem;*/
 
     max-height: 80vh;
 
@@ -218,11 +205,6 @@ nav a:hover {
     grid-row: 3 / span 1;
 }
 
-        /* STICKY ASIDE */
-/*.sticky__aside {
-    position: fixed;
-    top: 5rem;
-}*/
 
         /* FACT GENERATOR */
 
@@ -253,8 +235,8 @@ footer {
 }
 
 /*----- TOPBUTTON -----*/
-#topButton {
-    display: none;
+button {
+    display: block;
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -262,6 +244,7 @@ footer {
 
     border: none;
     outline: none;
+    
 
     background-color: #5cb4b0;
     color: black;
@@ -270,6 +253,10 @@ footer {
     padding: 20px;
     border-radius: 1rem;
     font-size: 18px;
+}
+
+.show {
+    display: block;
 }
 
 /*----- INDEX -----*/
