@@ -326,3 +326,7 @@ footer {
 
 
 /*----- ABOUT -----*/
+.slim {
+    float: left;
+    margin-left: 0;
+}
