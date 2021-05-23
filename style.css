@@ -29,6 +29,7 @@ figcaption {
     color: grey;
 
     overflow: visible;
+    text-align: left;
 }
 
 figure {
@@ -36,10 +37,12 @@ figure {
     padding: 0.2rem;
     border-radius: 1rem;
     margin: 0;
+
+    text-align: center;
 }
 
 img {
-    max-width: 300px;
+    max-width: 250px;
     display: inline-block;
     border-radius: 1rem;
 }
@@ -56,7 +59,7 @@ img {
 
 @media screen and (max-width: 992px) {
     img {
-        max-width: 250px;
+        max-width: 200px;
     }
 }
 
@@ -309,7 +312,15 @@ footer {
 
 
 /*----- HOPPGRENAR -----*/
+.hojd img {
+    max-width: 200px;
+}
 
+@media screen and (max-width: 600px) {
+    .hojd img {
+        max-width: 100%;
+    }
+}
 
 /*----- KASTGRENAR -----*/
 
