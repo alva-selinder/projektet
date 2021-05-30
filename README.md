@@ -10,6 +10,12 @@ Jag har inte helt följt min originalplanering då jag bland annat vid flera til
 
 ## Tillgänglighet
 
+Färgschemat som användes på sidan har kontrollerats med WebAIMs [Contrast Checker](https://webaim.org/resources/contrastchecker/) för att kontrollera att kontrasten mellan textfärgen och bakgrunden är stor nog att texten ska vara lättläst. Faktarutan hade en kontrast på 11.33:1, headern hade kontrasten 8.61:1 och både footern och navbaren hade kontrasten 13.08:1, vilket innebär att alla dessa element kontrastmässigt godkänns enligt WCAG (Web Content Accesibility Guide) på nivån AA, men även den mer krävande AAA-nivån.
+
+Bildtexten som hänvisade till bildkällorna hade dock inte en tydlig nog kontrast för att vara tillgänglig, då denna inte upnådde WCAG nivå AA.
+
+Alla bilder har alternativ text som beskriver vad bilden visar. På det viset kan folk som använder skärmläsare veta vad som visas på sidan. 
+
 ## Validering och hastighet
 
 ## Upphovsrätt och lagar
@@ -17,6 +23,8 @@ Jag har inte helt följt min originalplanering då jag bland annat vid flera til
 Många utav bilderna använda på hemsidan är tagna av olika fotografer. De har laddat upp sina bilder på hemsidor som [Unsplash](https://unsplash.com) och [Pixabay](https://pixabay.com/sv/) och har använt sig av Creative Commons-licenser eller sidornas egna licenser som tillåter användning av dessa bilder.
 
 ## Integritet och etik
+
+## Webbhotell
 
 ## Domskript
 
@@ -28,3 +36,4 @@ Använder man sig av domskript som man inte skapat själv kan man inte alltid ve
 
 ## Teckenkodning
 
+Webbplatsens HTML-filer använde teckenkodningen UTF-8. Detta bland annat för att tecken som åäö ska visas korrekt på sidan. Utan UTF-8 skulle dessa inte synas. Det hade varit möjligt att till exempel visa ett å med "\&aring;" men det är lättare att använda sig av UTF-8.
