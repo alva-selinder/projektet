@@ -18,11 +18,23 @@ Alla bilder har alternativ text som beskriver vad bilden visar. På det viset ka
 
 ## Validering och hastighet
 
+Alla HTML-dokument har granskats och validerats via [Validator.nu](https://validator.nu) för att se till att dokumenten bland annat följer korrekt syntax och att ingenting har fallit bort. CSS-dokumentet som användes validerades av W3C:s egna [CSS-valideringstjänst](https://jigsaw.w3.org/css-validator/validator) som inte hittade några fel.
+
+Sidan har även testats på olika enheter och sökmotorer, antigen via [BrowserStack](https://browserstack.com) eller manuellt genom att öppna sidan på olika enheter och i olika webbläsare.
+
+Bilderna som användes på sidan är inte större än den största möjliga visningsstorleken och är då mindre krävande att ladda när sidan öppnas. Samtidigt finns det inte många bilder på de flesta sidorna så det blir inte alltför stor fördröjning.
+
 ## Upphovsrätt och lagar
 
 Många utav bilderna använda på hemsidan är tagna av olika fotografer. De har laddat upp sina bilder på hemsidor som [Unsplash](https://unsplash.com) och [Pixabay](https://pixabay.com/sv/) och har använt sig av Creative Commons-licenser eller sidornas egna licenser som tillåter användning av dessa bilder.
 
+[Creative Commons-licenser](https://creativecommons.org) används av fotografer som vill tillåta andra att använda sig av deras bilder. Många kräver endast att användaren anger vem som är fotografen, som till exempel de bilder som använts på hemsidan.
+
 ## Integritet och etik
+
+När ett foto på en person läggs upp på internet kan i stort sett vem som helst se den bilden. Ofta kan personens ansikte och generella utseende märkas av, men det är också möjligt att detaljer på personens kläder eller i bildens bakgrund kan ge ledtrådar om var personen befinner sig eller om hen tillhör någon specifik organisation. Om detta sedan läggs ut på internet finns det en risk att någon använder dessa detaljer för att ta reda på mer information om personen på bilden. Detta kan fotografen och den fotograferade personen inte göra så mycket åt, men risken kan försöka undvikas genom att dölja identifierande information i fotot.
+
+Ska ett foto som innehåller en eller flera personer läggas upp bör man få tillåtelse av alla som är med på fotot. Alla har en rätt till sitt eget privatliv och läggs ens ansikte ut på internet kan vem som helst se det. Dessutom är det möjligt att någon som fotograferats har skyddad identitet, och foton av dem kan vara en allvarlig risk för dem.
 
 ## Webbhotell
 
