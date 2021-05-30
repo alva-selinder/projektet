@@ -1,7 +1,5 @@
 # Projektet
 
-(Work in progress)
-
 ## Planering
 
 Planen jag gjorde fick från början anpassas efter den tid jag hade, framför allt då jag fick mindre tid på mig att arbeta med projektet än vad som var tanken på grund av kirurgi. 
@@ -37,6 +35,12 @@ När ett foto på en person läggs upp på internet kan i stort sett vem som hel
 Ska ett foto som innehåller en eller flera personer läggas upp bör man få tillåtelse av alla som är med på fotot. Alla har en rätt till sitt eget privatliv och läggs ens ansikte ut på internet kan vem som helst se det. Dessutom är det möjligt att någon som fotograferats har skyddad identitet, och foton av dem kan vara en allvarlig risk för dem.
 
 ## Webbhotell
+
+Webbhotell låter användaren publicera sina hemsidor utan att uprätthålla en egen webbserver. Det finns både betalda och kostnadsfria webbhotell, men betalda webbhotell har generellt både fler funktioner och bättre användarsupport. 
+
+När man väljer webbhotell får man jämföra vilka olika tjänster som erbjuds och välja vilket som passar en bäst. Annonserar webbhotellet mycket om en viss funktion, till exempel att man kan skapa sin hemsida utan att behöva skriva egna HTML-dokument, komemr dessa funktioner ofta vara de mest välutvecklade och ha mest support från det webbhotellet. Då får man tänka på vad man själv vill prioritera.
+
+Dessutom måste man se till att man litar på det webbhotell man använder sig av. Större webbhotell brukar ofta ha recensioner eller bedömningar, antingen på sin egen sida eller som folk har publicerat individuellt. Om ett webbhotell aktivt försöker gömma användarrecensioner är det troligtvis för att de har något att dölja som de inte vill att användarna ska få reda på, till exempel att de sparar allt som användaren gör på sidan.
 
 ## Domskript
 
